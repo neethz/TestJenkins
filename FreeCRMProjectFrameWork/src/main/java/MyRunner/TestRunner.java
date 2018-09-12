@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 		features = "/Users/nbobby/eclipse/MyProjectTest/TestJenkins/FreeCRMProjectFrameWork/src/main/java/Features/login.feature",
 		glue="StepDefinitions",
 		format= {"pretty","html:test-results"},
-		dryRun=false,
+		dryRun=true,
 		monochrome=true,
 		strict=true
 		)
